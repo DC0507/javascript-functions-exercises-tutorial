@@ -1,7 +1,7 @@
 // Your code goes here:
 function renderPerson(name, date, color, age, gender){
-    //return `${name} is a ${age} years old ${gender} born on ${date} with ${color} eyes`;
-    return name.concat(" is a ", age, " years old male born on ", date, " with ", color, " eyes");
+    let msg = name + " is a " + age + " years old " + gender + " born in " + date + " with " + color + " eyes";
+    return msg;
 }
 
 
